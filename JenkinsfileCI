@@ -1,0 +1,11 @@
+pipeline {
+
+  agent any 
+  stages {
+    stage('print the statement') {
+      steps {
+        echo "This is a pull request"
+      }
+    }
+  }
+}
